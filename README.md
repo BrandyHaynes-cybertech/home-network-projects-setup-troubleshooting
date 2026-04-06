@@ -66,4 +66,4 @@ home-network-projects-setup-troubleshooting/
 
 ---
 
-*This is an active portfolio repository. New projects and case studies are added regularly.*
+*This is an active portfolio repository. New projects and case studies are added regularly.* 
