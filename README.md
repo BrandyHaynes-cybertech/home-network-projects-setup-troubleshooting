@@ -10,10 +10,20 @@ This repo serves as a living record of hands-on networking experience — coveri
 
 **Skills covered:**
 - Home network troubleshooting methodology
-- Router and mesh network configuration (Eero)
+- Router and mesh network configuration
 - MAC addressing and DHCP
+- IoT device setup and network integration
 - Parental control systems and device profiles
+- Network segmentation and SSID management
 - Root cause analysis and technical documentation
+
+---
+
+## Network Environment
+
+This portfolio is based on a live SOHO network managing 26+ devices across multiple categories including workstations, mobile devices, smart TVs, gaming consoles, tablets, and a dedicated IP security camera system.
+
+See the full [Network Overview](./docs/network-overview.md) for infrastructure details and device inventory.
 
 ---
 
@@ -21,7 +31,8 @@ This repo serves as a living record of hands-on networking experience — coveri
 
 | # | Title | Key Concepts | Status |
 |---|---|---|---|
-| 01 | [Amazon Kids Tablet — Wi-Fi & Server Connection Fix](./case-studies/01-amazon-kids-tablet-mac-address.md) | MAC randomization, Eero profiles, DHCP | ✅ Resolved |
+| 01 | [Amazon Kids Tablet — Wi-Fi & Server Connection Fix](./case-studies/01-amazon-kids-tablet-mac-address.md) | MAC randomization, device profiles, DHCP | ✅ Resolved |
+| 02 | [Arlo Camera Setup, Troubleshooting & Network Expansion](./case-studies/02-arlo-camera-setup-network-expansion.md) | IoT isolation, mesh expansion, network congestion | ✅ Resolved |
 
 > More case studies will be added as new issues are encountered and resolved.
 
@@ -33,9 +44,11 @@ This repo serves as a living record of hands-on networking experience — coveri
 home-network-projects-setup-troubleshooting/
 ├── README.md                  ← You are here
 ├── case-studies/              ← Individual troubleshooting write-ups
-│   └── 01-amazon-kids-tablet-mac-address.md
+│   ├── 01-amazon-kids-tablet-mac-address.md
+│   └── 02-arlo-camera-setup-network-expansion.md
 └── docs/                      ← Reference guides and network diagrams
-    └── (coming soon)
+    ├── network-overview.md
+    └── (more coming soon)
 ```
 
 ---
@@ -44,10 +57,12 @@ home-network-projects-setup-troubleshooting/
 
 | Component | Details |
 |---|---|
-| Router | Router and mesh network configuration (Eero) |
+| Router | Dual-node mesh network |
 | ISP | Home ISP |
-| Parental controls | Eero device profiles with content filtering |
-| OS | Windows / Android / Fire OS |
+| Parental controls | Device profile-based filtering and scheduling |
+| Network segmentation | Separate SSIDs for managed and unmanaged devices |
+| Security | Dedicated IP camera system with hub |
+| OS | Windows / Android / Fire OS / Nintendo OS |
 
 ---
 
