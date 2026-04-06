@@ -62,7 +62,7 @@ home-network-projects-setup-troubleshooting/
 | Parental controls | Device profile-based filtering and scheduling |
 | Network segmentation | Separate SSIDs for managed and unmanaged devices |
 | Security | Dedicated IP camera system with hub |
-| OS | Windows / Android / Fire OS / Nintendo OS |
+| OS | Windows / Android / Apple iOS / Fire OS / Nintendo OS |
 
 ---
 
