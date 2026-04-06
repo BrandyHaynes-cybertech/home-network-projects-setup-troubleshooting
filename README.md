@@ -44,8 +44,8 @@ home-network-projects-setup-troubleshooting/
 
 | Component | Details |
 |---|---|
-| Router | Eero mesh network |
-| ISP | Sparklight |
+| Router | Router and mesh network configuration (Eero) |
+| ISP | Home ISP |
 | Parental controls | Eero device profiles with content filtering |
 | OS | Windows / Android / Fire OS |
 
