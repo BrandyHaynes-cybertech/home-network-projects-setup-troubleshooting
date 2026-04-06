@@ -3,17 +3,16 @@
 **Issue:** Amazon Kids tablet repeatedly failed to connect to home Wi-Fi and reach game servers  
 **Root Cause:** MAC address randomization conflicting with Eero router device profiles  
 **Resolution:** Disabled MAC address randomization on the tablet  
-**Time to Resolve:** ~1 hour  
+**Time to Resolve:** ~ 30 Minutes  
 
 ---
 
 ## Problem Description
 
-A child's Amazon Kids tablet on a home Eero mesh network would frequently fail to connect to the internet. The tablet appeared connected to Wi-Fi but displayed a **"Connection Error — Unable to Contact Server"** message, particularly when launching Roblox.
+A child's Amazon Kids tablet on a home Eero mesh network would frequently fail to connect to the internet. The tablet appeared connected to Wi-Fi but displayed a **"Connection Error — Unable to Contact Server"** message, even when it was connected to the internet. 
 
 ### Symptoms
 - Tablet showed as connected to Wi-Fi but could not reach the internet
-- Roblox displayed a server connection error on launch
 - Switching to a mobile hotspot then back to home Wi-Fi temporarily fixed the issue
 - Problem returned after every reboot or sleep cycle
 - Date/time settings were correct; restarts did not resolve the issue
@@ -27,7 +26,7 @@ A child's Amazon Kids tablet on a home Eero mesh network would frequently fail t
 | Device | Amazon Kids Tablet (Fire OS) |
 | Router | Eero mesh network with parental controls |
 | ISP | Sparklight |
-| App affected | Roblox |
+| App affected | All |
 | Network profile | Child's dedicated Eero profile with content filters applied |
 
 ---
